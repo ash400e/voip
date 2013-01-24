@@ -11,7 +11,7 @@ namespace Presentation.Models
     public class UsersContext : DbContext
     {
         public UsersContext()
-            : base("SQLSERVER_CONNECTION_STRING")
+            : base("DefaultConnection")
         {
         }
 
